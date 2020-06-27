@@ -4,7 +4,7 @@ import Image from './Image';
 
 const ImageList = ({ images }) => {
     return (
-        <div className="col-12 p-5 row">
+        <div className="col-12 p-5 row mb-5">
             {images.map(image =>(
                 <Image
                     key={image.id}
